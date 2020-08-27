@@ -1,0 +1,79 @@
+/*Name: Sameer Adhikari
+*/
+
+/*fixing the position of hexgonal image in the screen*/
+.hex-image > img {
+  position: absolute;
+  z-index: 2;
+  margin-top: 48%;
+  width: 60%;
+  height: 550px;
+}
+/* fixing the position of BIO title in the Hexagonal image*/
+.hex-image > p{
+  position: absolute;
+  z-index: 3;
+  font-size:100px;
+  margin-left: 250px;
+  margin-top:63%;
+  font-family: 'Emilys Candy', cursive;
+  color: #4E8090;
+}
+.connector-2{
+  height: 90px;
+  width: 140px;
+  position: absolute;
+  z-index: 3;
+  background-color: #4E8090;
+  margin-top: 64%;
+  margin-left: 581px;
+}
+.bio-content{
+  height: 550px;
+  width: 580px;
+  position: absolute;
+  z-index: 3;
+  background-color: #4E8090;
+  margin-top: 48%;
+  margin-left: 700.30px;
+}
+.sub-content-bio{
+  height: 595px;
+  width: 480px;
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  margin-top: -5%;
+  margin-left: 53px;
+  overflow-y: scroll;
+  padding-bottom: 2%;
+  font-size: 1.7em;
+  font-family:'Bubbler One', sans-serif;
+}
+/*background image properties*/
+.background-image{
+  position: fixed;
+  width: 1366px;
+  height: 768px;
+  z-index: 1;
+  margin-top: -15%;
+}
+/*border lines for a quote added and borders are positioned aboove the background image*/
+.quote{
+  height:300px;
+  width:700px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 600px;
+  margin-top:150px;
+}
+/*text added aboove quote div*/
+.quote > p{
+  margin-top: -15px;
+font-size: 5.6em;
+text-align: center;
+font-family: 'Fredericka the Great', cursive;
+}
+footer{
+  margin-top: -10%;
+}

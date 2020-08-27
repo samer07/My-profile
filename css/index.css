@@ -1,0 +1,714 @@
+/*Name: Sameer Adhikari
+*/
+
+/*The entire page is introduced with a grab like cursor*/
+body{
+  cursor:grab;
+  margin:0;
+}
+.main img{
+  width: 1366px;
+  height: 768px;
+  position: fixed;
+  margin-top: -100px;
+}
+/* the idea of keeping this as a transparent layer was inspired from a CSS image slideshow tutorial by Mary lou */
+.net-layer {
+    content: '';
+    background: transparent url(../images/pattern.png) ; /* The .png file is repeated all over the screen as a trasparent layer */
+    background-repeat: repeat;
+    height: 768px;
+    width: 1349.59px;
+    position: fixed;
+    z-index: 0;
+    margin-top: -100px;
+}
+/*First hexagon*/
+.hex-structure1 {
+  position: relative;
+  width: 170.3px;
+  height: 100px;
+  background-color: #F3ECD9;
+  top: 120px;
+  left: 680px;
+  cursor: grabbing;
+}
+/* the image is kept only in the middle div with a circular edge*/
+.hex-structure1 img{
+  border-radius: 80px;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 2;
+}
+/* two different divs were created above and below the main div and an appropriate border bottom value was given to sharpen the edge of those sections.*/
+.before-div1 {
+  top: 24.5%;
+  border-bottom: 50px solid #F3ECD9;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 680px;
+}
+/*this is after the main div*/
+.after-div1 {
+  top: 45.5%;
+  border-top: 50px solid #F3ECD9;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 680px;
+}
+
+ /*second hexagon */
+ .hex-structure2 {
+   position: relative;
+   width: 170px;
+   height: 98.15px;
+   background-color: #858553;
+   top:22px;
+   left:865px;
+   cursor: grabbing;
+ }
+ .hex-structure2 img{
+   border-radius: 80px;
+   margin-top: -20px;
+   position: absolute;
+   z-index: 2;
+ }
+
+
+ .before-div2 {
+   top: 24.7%;
+   border-bottom: 50px solid #858553;
+   content: "";
+   position: absolute;
+   border-left: 86px solid transparent;
+   border-right: 84px solid transparent;
+   margin-left: 865px;
+ }
+
+ .after-div2 {
+   top: 45.5%;
+   border-top: 50px solid #858553;
+   left:0;
+   content: "";
+   position: absolute;
+   border-left: 86px solid transparent;
+   border-right: 84px solid transparent;
+   margin-left: 865px;
+ }
+/*third hexagon */
+
+.hex-structure3 {
+  position: relative;
+  width: 170px;
+  height: 98.15px;
+  background-color: skyblue;
+  top:85px;
+  left:590px;
+  cursor: grabbing;
+}
+.hex-structure3 img{
+  border-radius: 80px;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.before-div3 {
+  top: 47.7%;
+  border-bottom: 50px solid skyblue;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 589px;
+}
+
+.after-div3 {
+  top: 68.9%;
+  border-top: 50px solid skyblue;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 589px;
+}
+/*fourth heaxagon*/
+.hex-structure4 {
+  position: relative;width: 170px;height: 98.15px;
+  background-color: #ee6557;
+  top:-15px;
+  left:775px;
+  cursor: grabbing;
+}
+.hex-structure4 img{
+  border-radius: 80px;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 2;
+}
+
+
+.before-div4 {
+  top: 47.4%;
+  border-bottom: 50px solid #ee6557;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 774px;
+}
+
+.after-div4 {
+  top: 68.65%;
+  border-top: 50px solid #ee6557;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 775px;
+}
+
+/*fifth heaxagon*/
+.hex-structure5 {
+  position: relative;width: 170px;height: 98.15px;
+  background-color: #E9E1D6;
+  top:-115px;
+  left:960px;
+  cursor: grabbing;
+}
+.hex-structure5 img{
+  border-radius: 80px;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 2;
+  cursor: grabbing;
+}
+
+
+.before-div5 {
+  top: 47.2%;
+  border-bottom: 50px solid white;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 960px;
+}
+
+.after-div5 {
+  top: 68.5%;
+  border-top: 50px solid white;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 960px;
+}
+
+/*sixth heaxagon*/
+.hex-structure6 {
+  position: relative;width: 170px;height: 98.15px;
+  background-color: #C5C2A3;
+  top:-48px;
+  left:500px;
+  cursor: grabbing;
+}
+.hex-structure6 img{
+  border-radius: 80px;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 2;
+}
+.before-div6 {
+  top: 70.9%;
+  border-bottom: 50px solid white;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 500px;
+}
+
+.after-div6 {
+  top: 92.1%;
+  border-top: 50px solid white;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 500px;
+}
+
+/*seventh heaxagon*/
+.hex-structure7 {
+  position: relative;width: 170px;height: 98.15px;
+  background-color: black;
+  top:-150px;
+  left:685px;
+  cursor: grabbing;
+}
+.hex-structure7 img{
+  border-radius: 80px;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 2;
+}
+.before-div7 {
+  top: 70.3%;
+  border-bottom: 50px solid black;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 686px;
+}
+
+.after-div7 {
+  top: 91.5%;
+  border-top: 50px solid black;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 686px;
+}
+
+
+/*seventh heaxagon*/
+.hex-structure8 {
+  position: relative;width:170px;height: 98.15px;
+  background-color: #001E40;
+  top:-250px;
+  left:870px;
+  cursor: grabbing;
+}
+.hex-structure8 img{
+  border-radius: 80px;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 2;
+}
+.before-div8 {
+  top: 70.1%;
+  border-bottom: 50px solid #001E40;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 869px;
+}
+
+.after-div8 {
+  top: 91.6%;
+  border-top: 50px solid #001E40;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 869px;
+}
+
+/*ninth heaxagon*/
+.hex-structure9 {
+  position: relative;width: 170px;height: 98.15px;
+  background-color: #A3A9A5;
+  top:-350px;
+  left:1055px;
+  cursor: grabbing;
+}
+.hex-structure9 img{
+  border-radius: 80px;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.before-div9 {
+  top: 69.8%;
+  border-bottom: 50px solid #A3A9A5;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 1055px;
+}
+
+.after-div9 {
+  top: 91%;
+  border-top: 50px solid #A3A9A5;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 86px solid transparent;
+  border-right: 84px solid transparent;
+  margin-left: 1055px;
+}
+
+/*transparent layer above the main div i.e the middle of the hexagon*/
+.hex-layer {
+  position: absolute;
+  background-color: black;
+  overflow:hidden;
+  opacity:0.2;
+  width:170px;
+  transition: 0.4s;
+}
+
+/* This transition effect was learned from w3schools examples*/
+.hex-structure1:hover .hex-layer,.hex-structure2:hover .hex-layer, .hex-structure3:hover .hex-layer, .hex-structure4:hover .hex-layer, .hex-structure5:hover .hex-layer, .hex-structure6:hover .hex-layer, .hex-structure7:hover .hex-layer, .hex-structure8:hover .hex-layer, .hex-structure9:hover .hex-layer{
+    bottom:-22px;
+    height:140px;
+    border-radius: 80px;
+    opacity:0.5;
+    z-index: 5;
+}
+
+/* this div holds text above the hex-layer div*/
+.text-above-hex{
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 35px;
+  font-family: monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/*social media icons added into the left side of the screen*/
+.social-media-icons-logo a{
+  position: fixed;
+  top:20px;
+  color:skyblue;
+  z-index: 3;
+  font-family: monospace;
+  padding: 8px;
+  width: 130px;
+  height: 30px;
+  transition: 0.3s;
+  left:-80px;
+  cursor: grabbing;
+}
+
+/*this hover effect was learned form w3sschools*/
+.social-media-icons-logo a:hover{
+  left:0;
+}
+
+/*Here each icons are positioned respectively*/
+#icon-logo{
+  top:-40px;
+  margin-left: 80px;
+}
+#icon-logo > p{
+  font-size: 2.5em;
+}
+
+#icon-1{
+  top:180px;
+}
+
+#icon-1 img{
+  margin-top:-25%;
+  margin-left:60%;
+}
+
+#icon-2{
+  top:245px;
+}
+
+#icon-2 img{
+  margin-top:-25%;
+  margin-left:60%;
+}
+
+#icon-3{
+  top:310px;
+}
+#icon-3 img{
+  margin-top:-25%;
+  margin-left:60%;
+}
+#icon-4{
+  top:375px;
+}
+#icon-4 img{
+  margin-top:-25%;
+  margin-left:60%;
+}
+#icon-5{
+  top:440px;
+}
+#icon-5 img{
+  margin-top:-25%;
+  margin-left:60%;
+}
+
+
+/*overlays codes */
+.overlay-1{
+  position: absolute;
+  width:515px;
+  height:220px;
+  background-color:black;
+  margin-top: -833px;
+  margin-left: 70px;
+  opacity: 0.3;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 8em;
+  font-family: 'Fredericka the Great', cursive;
+  padding-bottom: 10px;
+  color:skyblue;
+}
+
+
+
+
+/* codes for designing circular structure */
+.circle-1{
+   height: 180px;
+   width:180px;
+   border-radius: 50%;
+   margin-left:600px;
+   background-color: #A3A9A5;
+   opacity: 0.8;
+   z-index: 4;
+  }
+  /*this element position the icons into their respective circle*/
+.icon_position1{
+    position: absolute;
+    margin-left: 75.3%;
+    z-index: 3;
+    margin-top: -36%;
+    transition: 0.35s;
+}
+/*this effect shows the icon in zooming view*/
+.icon_position1:hover, .icon_position2:hover, .icon_position3:hover, .icon_position4:hover{
+  transform: scale(1.35);
+}
+.icon_position2{
+  position: absolute;
+  margin-left: 62.2%;
+  z-index: 3;
+  margin-top: -23.5%;
+  transition: 0.35s;
+}
+.icon_position3{
+  position: absolute;
+  margin-left: 87.5%;
+  z-index: 3;
+  margin-top: -24%;
+  transition: 0.35s;
+}
+.icon_position4{
+  position: absolute;
+  margin-left: 75.5%;
+  z-index: 3;
+  margin-top: -11%;
+  transition: 0.35s;
+}
+  .circle-2{
+    height: 180px;
+    width:180px;
+    border-radius: 50%;
+    margin-left:690px;
+    margin-top: -80px;
+    background-color: #A3A9A5;
+    opacity: 0.8;
+    z-index: 4;
+   }
+   .circle-3{
+     height: 180px;
+     width:180px;
+     border-radius: 50%;
+     margin-left:511px;
+     margin-top: -180px;
+     background-color: #A3A9A5;
+     opacity: 0.8;
+     z-index: 4;
+    }
+    .circle-4{
+      height: 180px;
+      width:180px;
+      border-radius: 50%;
+      margin-left:600px;
+      margin-top: -100px;
+      background-color: #A3A9A5;
+      opacity: 0.8;
+      z-index: 4;
+     }
+
+/* codes for creating a button for navigation*/
+/*This idea was learned from the examples of Codepen to make a button*/
+.button-box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left:47%;
+}
+
+.circle-holder{
+  display: none;
+  position: fixed;
+  z-index: 4;
+  margin-top: 7.2%;
+  left: -0.2%;
+  padding-top: 6%;
+}
+.button-box:after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+}
+
+.symbol {
+  cursor: grabbing;
+  position: fixed;
+  z-index: 4;
+  width: 100px;
+  height: 100px;
+  color: black;
+  background: #E9E1D6;
+  border-radius: 50%;
+  border: none;
+transition: box-shadow 300ms ease-in-out;
+-webkit-transition:box-shadow 300ms ease-in-out;
+-moz-transition:box-shadow 300ms ease-in-out;
+}
+.symbol:after {
+  content: "=>";
+  font-size: 2.5em;
+  line-height: 1.1em;
+}
+.symbol:hover {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+  box-shadow: 0 0 1px 15px black, 0 0 1px 30px white, 0 0 1px 45px #A3A9A5;
+}
+.button-box:hover .circle-holder{
+  display:block;
+}
+
+.overlap-layer{
+    position:relative;
+    margin-top: -210px;
+    background-color: white;
+    width: 1280px;
+    height:689px;
+    margin-left: 30px;
+}
+/*For cool about*/
+.hex-structure10 {
+  position: relative;
+  width: 500px;
+  height: 288.68px;
+  background-color: skyblue ;
+  top:170px;
+  left: 70px;
+  opacity: 0.8;
+}
+/* this positions the about me text within the hexagon10 div*/
+.about {
+font-size: 5.7em;
+text-align: center;
+font-family: 'Emilys Candy', cursive;
+color: black;
+opacity: 0.8;
+position: absolute;
+left: 75px;
+margin-top: -40px;
+}
+
+.before-div10 {
+  top: 3.4%;
+  border-bottom: 144px solid skyblue;
+  content: "";
+  position: absolute;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  margin-left: 69px;
+}
+
+.after-div10 {
+  top: 67%;
+  border-top: 144px solid skyblue;
+  left:0;
+  content: "";
+  position: absolute;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  margin-left: 69px;
+}
+/*holds sub-content div*/
+.content1{
+height:700px;
+width:580px;
+font-size: 25px;
+background-color: skyblue;
+margin-left: 700px;
+margin-top: -370px;
+color: #78909c;
+font-family:'Bubbler One', sans-serif;
+text-align: center;
+}
+.sub-content > h2{
+  color:black;
+}
+.sub-content{
+  width:85%;
+  height:650px;
+  margin-left:40px;
+  background-color: white;
+  margin-top: 20px
+}
+
+.connector{
+  width:130px;
+  height:90px;
+  background-color: #78909c;
+  margin-left:570px;
+  margin-top:-430px;
+}
+
+
+footer{
+  position: absolute;
+  z-index: 1;
+  top:1462px;
+}
+.layer-2{
+  height:300px;
+  width:1215px;
+  padding: 5%;
+  left: 5%;
+  opacity: 0.7;
+  text-align: center;
+  font-size:2em;
+  color: black;
+  background-color: skyblue;
+  font-family:'Bubbler One', sans-serif;
+}
+
+  .layer-3{
+    height:90px;
+    width:1349px;
+    opacity: 0.8;
+    margin-top:-25px;
+    text-align: center;
+    font-size:1.5em;
+    background-color:#001E40;
+    font-family: monospace;
+    color:white;
+  }

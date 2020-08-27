@@ -1,0 +1,183 @@
+/*Name: Sameer Adhikari
+*/
+
+.main-2 img{
+  width: 1349.9px;
+  height: 768px;
+  position: fixed;
+  z-index: 1;
+  margin-top: -100px;
+  opacity: 0.7;
+  /*background-color: #F5F5F5;*/
+}
+/*re-positioning the net like layer*/
+.net-layer {
+    height: 790px;
+    margin-top: -800px;
+    z-index: 1;
+}
+/* border of the fieldset element*/
+.border{
+  position: absolute;
+  right: 12%;
+  z-index: 2;
+  height: 440px;
+  width: 80%;
+  border-width:medium;
+  border-color: black;
+  margin-top: 4%;
+  margin-left: 7.5%;
+  font-size: 30px;
+
+
+}
+/*positioning the my image in the fieldset */
+.my-image2{
+  position: absolute;
+  z-index: 10;
+  height:225px;
+  width: 300px;
+  margin-top: -310px;
+  margin-left: 700px;
+}
+/* circular edge to image*/
+.my-image2 > img {
+  border-radius: 30px;
+position: absolute;
+  left: 30%;
+positio: relative;
+ top: -32px;
+}
+
+
+
+/*title in the cv*/
+.content-flex1{
+	height:710px;
+	width:500px;
+  font-size: 5.8em;
+  font-family: monospace;
+	text-align: center;
+	margin-top: -30px;
+	color:white;
+  position: relative;
+  z-index: 2;
+  top:630px;
+  background-color: black;
+  }
+  .content-flex1 > p{
+    padding-top:250px;
+    padding-left: 50px;
+  }
+  /*contents of content-flex1 title*/
+.content-flex2 {
+  position: absolute;
+  z-index: 2;
+  height:710px;
+  background-color: white;
+  width:849px;
+  margin-left: 500px;
+  margin-top:600px;
+}
+/*coursework title*/
+.content-flex1-1{
+	height:710px;
+	width:500px;
+  font-family: monospace;
+	text-align: center;
+	margin-top: 20px;
+	color:white;
+  left:0;
+  position: relative;
+  z-index: 2;
+  top:580px;
+  background-color: black;
+  }
+  .content-flex1-1 > p{
+    padding-top:250px;
+    padding-left: 50px;
+    font-size: 5.3em;
+  }
+  /*contents of coursework*/
+.content-flex2-1{
+  position: absolute;
+  z-index: 2;
+  height:710px;
+  background-color: white;
+  width:849px;
+  margin-left: 500px;
+  margin-top:-130px;
+
+}
+/*skills title*/
+.content-flex1-2{
+	height:710px;
+	width:500px;
+	text-align: center;
+	color:white;
+	font-family: monospace;
+  left:0;
+  position: relative;
+  z-index: 2;
+  top:530px;
+  background-color: black;
+  }
+  .content-flex1-2 > p{
+    padding-top:250px;
+    padding-left: 50px;
+    font-size: 5.7em;
+  }
+  /*skills content*/
+.content-flex2-2{
+  position: absolute;
+  z-index: 2;
+  height:710px;
+  background-color: white;
+  width:849px;
+  margin-left: 500px;
+  top:2163px;
+
+}
+.flex2-sub{
+width:600px;
+height:550px;
+padding-left:120px;
+padding-top: 50px;
+font-size: 1.5em;
+text-align: right;
+}
+/*positioning the flex divs*/
+.flex-position{
+  display: flex;
+  flex-direction: column;
+}
+.layer-2{
+  font-size: 2.7em;
+}
+/*  progress bar effects on firefox browser*/
+progress::-moz-progress-bar {
+  border-radius: 20px;
+  height: 40px;
+  width: 400px;
+}
+/* progress bar effect on chrome browser*/
+progress::-webkit-progress-bar {
+border-radius: 20px;
+height: 40px;
+width: 400px;
+}
+progress::-webkit-progress-value {
+border-radius: 20px;
+height: 40px;
+width: 400px;
+}
+progress{
+border-radius: 20px;
+height: 40px;
+width: 400px;
+}
+
+footer{
+  z-index: 2;
+  top:2873px;
+}
