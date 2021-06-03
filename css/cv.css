@@ -63,7 +63,7 @@ positio: relative;
   position: relative;
   z-index: 2;
   top:630px;
-  background-color: black;
+  background-color: skyblue;
   }
   .content-flex1 > p{
     padding-top:250px;
@@ -91,7 +91,7 @@ positio: relative;
   position: relative;
   z-index: 2;
   top:580px;
-  background-color: black;
+  background-color: skyblue;
   }
   .content-flex1-1 > p{
     padding-top:250px;
@@ -120,7 +120,7 @@ positio: relative;
   position: relative;
   z-index: 2;
   top:530px;
-  background-color: black;
+  background-color: skyblue;
   }
   .content-flex1-2 > p{
     padding-top:250px;
