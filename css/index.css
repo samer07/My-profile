@@ -614,7 +614,7 @@ transition: box-shadow 300ms ease-in-out;
   position: relative;
   width: 500px;
   height: 288.68px;
-  background-color: skyblue ;
+  background-color: #218060 ;
   top:170px;
   left: 70px;
   opacity: 0.8;
@@ -633,7 +633,7 @@ margin-top: -40px;
 
 .before-div10 {
   top: 3.4%;
-  border-bottom: 144px solid skyblue;
+  border-bottom: 144px solid #218060;
   content: "";
   position: absolute;
   border-left: 250px solid transparent;
@@ -643,7 +643,7 @@ margin-top: -40px;
 
 .after-div10 {
   top: 67%;
-  border-top: 144px solid skyblue;
+  border-top: 144px solid #218060;
   left:0;
   content: "";
   position: absolute;
@@ -656,7 +656,7 @@ margin-top: -40px;
 height:700px;
 width:580px;
 font-size: 25px;
-background-color: skyblue;
+background-color: #218060;
 margin-left: 700px;
 margin-top: -370px;
 color: #78909c;
@@ -697,7 +697,7 @@ footer{
   text-align: center;
   font-size:2em;
   color: black;
-  background-color: skyblue;
+  background-color: #218060;
   font-family:'Bubbler One', sans-serif;
 }
 
