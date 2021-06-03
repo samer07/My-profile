@@ -14,13 +14,13 @@
   position: absolute;
   z-index: 3;
   font-size:100px;
-  margin-left: 250px;
-  margin-top:63%;
+  margin-left: 265px;
+  margin-top:61%;
   font-family: 'Emilys Candy', cursive;
   color: #4E8090;
 }
 .connector-2{
-  height: 90px;
+ /* height: 90px;*/
   width: 140px;
   position: absolute;
   z-index: 3;
@@ -38,12 +38,12 @@
   margin-left: 700.30px;
 }
 .sub-content-bio{
-  height: 595px;
+  height: 538px;
   width: 480px;
   position: absolute;
   z-index: 3;
   background-color: white;
-  margin-top: -5%;
+  /*margin-top: -5%;*/
   margin-left: 53px;
   overflow-y: scroll;
   padding-bottom: 2%;
